@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handjet:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Code:wght@300..700&family=Handjet:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+
+
+:root {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Code","Handjet";
+}
+
+body {
+    background-image: url("BG.svg");
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #97E8FF;
+    padding: 20px 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list ul li {
+    list-style-type: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+.nav-list ul a {
+    text-decoration: none;
+    color: #003F82;
+}
+
+.cart-icon i {
+    color: #003F82;
+}
+
+#sec {
+    border-radius: 50%;
+    width: 50px;
+}
+
+#Hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    width: 100%;
+    /* padding: 25%; */
+}
+
+#Hero h1 {
+    color: #003F82;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10rem;
+}
+
+#Hero p {
+    color: #0056A6;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+#Hero button {
+    margin: 3rem;
+    padding: 1rem;
+    width: 7rem;
+    height: auto;
+    color: #0056A6;
+    background-color: #97E8FF;
+    border: none;
+    border-radius: 7px;
+}
+
+/* :hover ul a {
+    color: rgb(96, 96, 155);
+}  */
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    padding: 5%;
+    /* height: 5rem; */
+}
+
+.one {
+    width: 30%;
+}
+
+.two {
+    width: 30%;
+}
+
+.top {
+    font-size: 0.5rem;
+    text-transform: uppercase;
+}
+
+.txt {
+    font-size: 0.25rem;
+}
